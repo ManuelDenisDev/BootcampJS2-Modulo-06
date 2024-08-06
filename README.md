@@ -1,6 +1,10 @@
-# typescript-sandbox
+# BootcampJS2-Modulo-05
 
-Para la parte de cada módulo en la que te planteamos ejercicios con JavaScript puedes usar este sandbox.
+## Modulo 5
+
+### Ejercicio de laboratorio de Manuel Denis.
+
+#### Laboratorio Módulo 5 - Condicionales.
 
 Pasos:
 
