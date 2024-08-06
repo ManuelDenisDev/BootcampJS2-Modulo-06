@@ -4,11 +4,29 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Laboratorio 5 - Juego de las siete media</title>
   </head>
   <body>
     <div id="app">
-      <h1>TypeScript Sandbox</h1>
+      <h1>Juego de las siete media</h1>
+      <div id="puntuacion"></div>
+      <button id="pedir-carta">Pedir Carta</button>
+      <button id="me-planto">Me Planto</button>
+      <div>
+        <img
+          src="./public/assets/images/back.jpg"
+          alt="Carta Actual"
+          id="carta-actual"
+          width="100"
+        />
+      </div>
+      <div id="mensaje" class="oculto">Game Over</div>
+      <div>
+        <button id="nueva-partida" class="oculto">Nueva partida</button>
+        <button id="saber-que-habria-pasado" class="oculto">
+          ¿Qué habría pasado?
+        </button>
+      </div>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>

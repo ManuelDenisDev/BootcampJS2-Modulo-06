@@ -95,3 +95,95 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.007);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+#puntuacion {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+img {
+  margin: 20px;
+  width: 150px;
+  height: auto;
+  border-radius: 7%;
+}
+
+#mensaje {
+  font-size: 1.5rem;
+  color: red;
+  margin-top: 20px;
+}
+
+#nueva-partida {
+  display: none;
+}
+
+#nueva-partida.oculto {
+  display: inline-block;
+}
+
+#me-planto {
+  background-color: #28a745;
+}
+
+#me-planto:hover {
+  background-color: #218838;
+}
+
+#nueva-partida {
+  background-color: #17a2b8;
+}
+
+#nueva-partida:hover {
+  background-color: #138496;
+}
+
+.oculto {
+  display: none;
+}
+
+#saber-que-habria-pasado {
+  background-color: #ffc107;
+}
+
+#saber-que-habria-pasado:hover {
+  background-color: #e0a800;
+}
