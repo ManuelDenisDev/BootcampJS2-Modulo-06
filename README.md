@@ -1,10 +1,10 @@
-# BootcampJS2-Modulo-05
+# BootcampJS2-Modulo-06
 
-## Modulo 5
+## Modulo 6
 
 ### Ejercicio de laboratorio de Manuel Denis.
 
-#### Laboratorio Módulo 5 - Condicionales.
+#### Laboratorio Módulo 6 - Imports.
 
 Pasos:
 
